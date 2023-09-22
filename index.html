@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Guess Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--DO NOT TOUCH THIS FILE PLEASE!-->
+    <div class="panel" id="gamePanel">
+        <p>Welcome to Guessing Game App</p>
+
+        <p>click on the start button to start</p>
+        <button class="submit-btn startBtn">Start !</button>
+    </div>
+
+    <div class="panel" id="successPanel">
+        <div class="checkmark-circle">
+            <div class="background"></div>
+            <div class="checkmark draw"></div>
+        </div>
+        <h1>Congratulations!</h1>
+        <p>You got it right !</p>
+        <p>The hidden number is <span id='guessed'>..</span></p>
+        <button class="submit-btn btnOk" type="submit">Continue</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
